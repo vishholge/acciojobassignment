@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigment</title>
+    <style>
+        .head {
+            background-color: orchid;
+
+             /* myy mane is vishwant */
+            margin: 0px;
+            padding: 22px;
+            text-align: center;
+        }
+        .myform {
+           background-color: aqua;
+        }
+        div{
+            margin: 10px;
+            padding: 5px;
+        }
+        a{
+            text-decoration: none;
+        }
+        img{
+            border-radius: 2rem;
+            width:100%;
+            height: 500px;
+            margin: 0px;
+        }
+        .imgclass{
+            margin: 0px;
+            background-color: brown;
+            padding: 0px;
+        }
+        body{
+            border: 2px solid black;
+        }
+        .footer{
+            background-color: blueviolet;
+            text-align: center;
+            margin: 0px;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header class="head">
+        <h1>This is a <span style="color: yellow;">Header</span> tag</h>
+    </header>
+    <form action="" class="myform">
+        <h2>This is form please fill below details</h2>
+        <div>
+            <label for="fname">Enter your First Name:</label>
+            <input type="text" placeholder="john" id="fname" name="myfname">
+        </div><br>
+        <div>
+            <label for="lname">Enter your Last name</label>
+            <input type="text" placeholder="Holge" id="lname" name="mylname">
+        </div>
+        <div>
+            <label for="cars">select a Car whick you like the most:</label>
+            <select name="mycar" id="cars">
+                <option value="BMW">BMW</option>
+                <option value="BMW" selected>Audi </option>
+                <option value="BMW">Ferrari</option>
+            </select>
+        </div>
+        <div>
+             Gender:
+            <label for="male">Male</label>
+            <input type="radio"  id = "male" name = "mygender" checked>
+            <label for="female">Female</label>
+            <input type="radio"  id="female" name = "mygender">
+        </div>
+        <div>
+            
+            pick your favorate langugaes; <br>
+            <label for="java">java</label>
+            <input type="checkbox" id = "java" name = "java" checked >
+            <label for="python">python</label>
+            <input type="checkbox" id = "python" name = "python">
+            <label for="c++">c++</label>
+            <input type="checkbox" id = "c++" name = "c++">
+        </div>
+        <a href="https://www.google.com/" target="_blank">Go to google</a>
+        <div>
+            <input type="submit" value="submit now">
+            <input type="reset" value="reset">
+        </div>
+
+        
+        
+
+
+
+    </form>
+    <div class="imgclass">
+        <img  src="https://source.unsplash.com/random" alt="" >
+    </div>
+    <footer class="footer">
+        <h1>This is Footer tag</h1>
+    </footer>
+</body>
+
+</html>
